@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <AssemblyName>BingChart.Tests</AssemblyName>
+    <RootNamespace>BingChart.Tests</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <!-- 只编译引擎无关的核心代码，和 mod 里跑的是同一份源文件 -->
+  <ItemGroup>
+    <Compile Include="..\src\core\Json.cs" />
+    <Compile Include="..\src\core\Wav.cs" />
+    <Compile Include="..\src\core\Chart.cs" />
+    <Compile Include="..\src\core\Dsp.cs" />
+    <Compile Include="..\src\core\IceChart.cs" />
+    <Compile Include="..\src\core\Loc.cs" />
+    <Compile Include="..\src\core\GameTimeline.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+
+</Project>

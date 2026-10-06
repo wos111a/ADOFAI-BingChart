@@ -1,0 +1,11 @@
+{
+  "Id": "BingChart",
+  "DisplayName": "Bing Chart - 冰谱",
+  "Author": "By wos111(机人)",
+  "Version": "1.0.0",
+  "Requirements": [],
+  "AssemblyName": "BingChart.dll",
+  "EntryMethod": "BingChart.ModMain.Load",
+  "HomePage": "https://github.com/wos111a/ADOFAI-BingChart",
+  "Repository": "https://github.com/wos111a/ADOFAI-BingChart"
+}

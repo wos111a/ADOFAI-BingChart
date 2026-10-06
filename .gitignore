@@ -1,0 +1,17 @@
+# 构建中间产物
+src/obj/
+src/bin/
+tests/obj/
+tests/bin/
+*.pdb
+*.deps.json
+
+# 玩家本地设置（游戏里生成）
+config.json
+config.json.bak
+
+# 编辑器 / 系统
+.vs/
+.vscode/
+*.user
+Thumbs.db
